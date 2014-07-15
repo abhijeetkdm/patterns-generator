@@ -1,0 +1,39 @@
+kafka.zk.connect=ec2-54-208-39-182.compute-1.amazonaws.com:2181
+metadata.broker.list=ec2-54-208-39-182.compute-1.amazonaws.com:9092
+
+# Defining topics
+# Kafka topics
+kafka.topic=topic-s0
+kafka.consumer.groupid=group-s0
+
+
+channel.transmitter.host.address=localhost
+channel.transmitter.host.ports=8400,8401,8402,8403,8409
+
+# Rate Limiter
+# Transmitter packets per second
+channel.generator.pps=40000.0
+
+message.generator.msgcount=2147483640
+
+generator.use_kafka=false
+
+message.generator.saclimit=50
+
+message.generator.typelimit=10
+
+# Time in seconds for the peak interval
+message.generator.peak.interval.seconds=20
+
+# Time in seconds for each non-peak interval.
+message.generator.normal.interval.seconds=10
+
+# Percentage difference between minimum and maximum (peak) rate. Set to 0 for constant rate
+message.generator.distribution.percentage=90
+
+# Percentage increase between rates when increasing from minimum to maximum and then down to minimum. Set to 0 for constant rate
+message.generator.rate.increment.percentage=20
+
+ganglia.gmond.hostname=192.168.33.136
+ganglia.gmond.port=8649
+ganglia.sampleinterval.seconds=10

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/udpPrototype/!svn/ver/2350/java/jslte-gentokafka/trunk/src/main/resources/META-INF/spring
+END
+MessgeDistribution.dat
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/udpPrototype/!svn/ver/1880/java/jslte-gentokafka/trunk/src/main/resources/META-INF/spring/MessgeDistribution.dat
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/udpPrototype/!svn/ver/1483/java/jslte-gentokafka/trunk/src/main/resources/META-INF/spring/log4j.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/udpPrototype/!svn/ver/1483/java/jslte-gentokafka/trunk/src/main/resources/META-INF/spring/applicationContext.xml
+END
+generator.properties
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/udpPrototype/!svn/ver/2350/java/jslte-gentokafka/trunk/src/main/resources/META-INF/spring/generator.properties
+END
